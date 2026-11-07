@@ -1,0 +1,15 @@
+
+{
+  "manifest_version": 3,
+  "name": "Panopto Lecture Agent",
+  "version": "0.1.0",
+  "description": "Extract timestamped Panopto lecture transcripts and identify important moments.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Extract Panopto Transcript"
+  }
+}
