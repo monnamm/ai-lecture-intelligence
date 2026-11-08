@@ -14,8 +14,10 @@ venv/
 
 # Private lecture data
 *.txt
+!backend/requirements.txt
 transcripts/
 downloads/
 
 # Editor files
 .vscode/
+backend/data/
